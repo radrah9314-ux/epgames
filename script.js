@@ -1,4 +1,4 @@
-const wrapper = document.querySelector(".wrappe");
+const wrapper = document.querySelector(".wrapper");
 const loginLink = document.querySelector(".login-register");
 const registerLink = document.querySelector(".login-link");
 const btnPopup = document.querySelector(".btnLogin-popup");
