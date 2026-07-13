@@ -10,8 +10,6 @@
 
 body {
     display: flex;
-    justify-content: center;
-    align-items: center;
     min-height: 100vh;
     background: url('images/—Pngtree—abstract iridescent liquid metal surface_20426161.jpg') no-repeat;
     background-size: cover;
