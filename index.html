@@ -20,6 +20,14 @@
             <a href="preview.html">Languages</a>
             <a href="preview.html">account</a>
             <button class="btnLogin-popup">Login</button>
+
+            <div class="profile-menu" style="display: none;">
+                <button class="btn-profile">My Profile</button>
+                <div class="profile-dropdown">
+                    <a href="#">My Profile</a>
+                    <a href="#" id="logout">Logout</a>
+                </div>
+            </div>
         </nav>
     </header>
 
@@ -76,6 +84,16 @@
                 <div class="remember-forgot">
                     <label><input type="checkbox"> I Agree to the terms & conditions</label>
                 </div>
+                <div id="g_id_onload"
+     data-client_id="177160045050-cgpr4vjt6frni9f9pr3hu2b7s8geuij7.apps.googleusercontent.com"
+     data-callback="handleCredentialResponse">
+</div>
+
+<div class="g_id_signin"
+     data-type="standard"
+     data-theme="outline"
+     data-size="large">
+</div>
                 <button type="submit" class="btn">Register
                 </button>
                 <div class="login-register">
@@ -89,6 +107,7 @@
     <script src="script.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.js"></script>
+<script src="https://accounts.google.com/gsi/client" async defer></script>
 </body>
 
 </html>
